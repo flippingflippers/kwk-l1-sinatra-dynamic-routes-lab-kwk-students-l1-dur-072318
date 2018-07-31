@@ -9,5 +9,7 @@ get '/reversename/:name' do
 end
 
 get '/square/:number'do
+@number=params[:number]
 
+get ''
 end
