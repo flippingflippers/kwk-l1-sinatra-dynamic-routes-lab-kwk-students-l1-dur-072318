@@ -17,7 +17,7 @@ get '/say/:number/:phrase' do
 @number=params[:number]
 @phrase=params[:phrase]
 i=0
-while i<"#{@number.to_i}"
+while i<10
 "hi"
 i+=1
 end
