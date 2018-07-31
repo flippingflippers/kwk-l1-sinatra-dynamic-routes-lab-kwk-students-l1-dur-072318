@@ -19,7 +19,7 @@ get '/say/:number/:phrase' do
 @phrase=params[:phrase]
 i=0
 while i<@number
-final_string += "#{@phrase"
+final_string += "#{@phrase}"
 i+=1
 end
 end
