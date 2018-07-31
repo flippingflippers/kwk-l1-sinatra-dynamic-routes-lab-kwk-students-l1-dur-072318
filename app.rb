@@ -21,7 +21,7 @@ i=0
 # "hi"
 # i+=1
 end
-
+end
 # get '/say/:word1/:word2/:word3/:word4/:word5'
 # @word1=params[:word1]
 # @word2=params[:word2]
