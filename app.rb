@@ -14,11 +14,12 @@ get '/square/:number'do
 end
 
 get '/say/:number/:phrase' do
+  final_string=""
 @number=params[:number].to_i
 @phrase=params[:phrase]
 i=0
 while i<@number
-"hi"
+final_string
 i+=1
 end
 end
